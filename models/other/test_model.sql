@@ -1,0 +1,1 @@
+select {{ dbt_utils.generate_surrogate_key('1') }},{{ dbt_utils.generate_surrogate_key('2') }}
